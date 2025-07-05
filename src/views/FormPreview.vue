@@ -213,7 +213,7 @@ watch(formFields, (newFields) => {
 }, { deep: true })
 
 const goToBuilder = () => {
-  router.push('/form-builder')
+  router.push('/generator/form-builder')
 }
 
 const updateFieldValue = (fieldId, value) => {
