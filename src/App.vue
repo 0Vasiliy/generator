@@ -11,9 +11,9 @@ export default defineComponent({
  <center>
    <header>
     <nav>
-      <RouterLink to="/">Главная</RouterLink>
-      <RouterLink to="/form-builder">Конструктор форм</RouterLink>
-      <RouterLink to="/form-preview">Предпросмотр формы</RouterLink>
+      <RouterLink to="/generator/">Главная</RouterLink>
+      <RouterLink to="/generator/form-builder">Конструктор форм</RouterLink>
+      <RouterLink to="/generator/form-preview">Предпросмотр формы</RouterLink>
     </nav>
   </header>
 

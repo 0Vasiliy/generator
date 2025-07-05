@@ -4,9 +4,9 @@ import FormBuilder from '../views/FormBuilder.vue'
 import FormPreview from '../views/FormPreview.vue'
 
 const routes: Array<RouteRecordRaw> = [
-  { path: '/', name: 'Home', component: HomeView },
-  { path: '/form-builder', name: 'FormBuilder', component: FormBuilder },
-  { path: '/form-preview', name: 'FormPreview', component: FormPreview },
+  { path: '/generator/', name: 'Home', component: HomeView },
+  { path: '/generator/form-builder', name: 'FormBuilder', component: FormBuilder },
+  { path: '/generator/form-preview', name: 'FormPreview', component: FormPreview },
 ]
 
 const router = createRouter({

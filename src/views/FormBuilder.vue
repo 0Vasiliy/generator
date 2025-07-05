@@ -365,7 +365,7 @@ const handleSubmit = async (event) => {
 
 const goToPreview = () => {
   saveForm()
-  router.push('/form-preview')
+  router.push('/generator/form-preview')
 }
 </script>
 
